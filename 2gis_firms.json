@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "api_version": "3.0.863335",
+    "code": 200,
+    "issue_date": "20220808"
+  },
+  "result": {
+    "items": [
+      {
+        "address_name": "Ленина, 5",
+        "id": "2393065583018885_FlA6c165365H3H3694IGGGG09p3g6e47G6GB1C8802228B96udcn566625G72G6G1J1JIJ0Jnr2Auv195C9A1667B5H1H3JHe9",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_comment": "1 этаж",
+        "address_name": "проспект Октября, 19",
+        "id": "70000001006794970_FlA6c165365H3H8301IGGGGG9p3g6e47G6GB1C88028897A8udcn566625G72G6G1JG4IJG3nr2Auv195C9A1013321H2J3H1be",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_name": "Баязита Бикбая, 20/1",
+        "full_name": "Уфа, Баязита Бикбая, 20/1",
+        "id": "2393065583018883_FlA6c165365H3H3694IGGGG09p3g6e47G6GB1C8802228B94udcn566625G72G6G1J1JIJ0Jnr2Auv195C9A1667B5H3H3JHe6",
+        "name": "Вкусно — и точка",
+        "purpose_name": "Ресторан",
+        "type": "branch"
+      },
+      {
+        "address_name": "проспект Октября, 138",
+        "id": "2393065583018884_FlA6c165365H3H3694IGGGG09p3g6e47G6GB1C8802228B95udcn566625G72G6G1J1JIJ0Jnr2Auv195C9A1667B5H4H3JH58",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_name": "Мубарякова, 1",
+        "id": "2393066583092767_FlA6c165365H3H3694IGGGG09p3g6e47G6GB1C88022A2A78udcn566625G72G6G1J1JIJ0Jnr2Auv195C9A1677B5H5H3JHA1",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_name": "проспект Октября, 138",
+        "id": "70000001044506766_FlA6c165365H3H8301IGGGGG9p3g6e47G6GB1C8802660987udcn566625G72G6G1JG4IJG3nr2Auv195C9A1013367H6J3H196",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_comment": "1 этаж",
+        "address_name": "Аэропорт, 56",
+        "id": "70000001057550594_FlA6c165365H3H8301IGGGGG9p3g6e47G6GB1C880296536Audcn566625G72G6G1JG4IJG3nr2Auv195C9A1013375H7J3H135",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_name": "50 лет СССР, 41а",
+        "id": "70000001018140777_FlA6c165365H3H8301IGGGGG9p3g6e47G6GB1C8802A24388udcn566625G72G6G1JG4IJG3nr2Auv195C9A1013338H8J3H143",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_comment": "3 этаж",
+        "address_name": "Цюрупы, 97",
+        "id": "2393066583119255_FlA6c165365H3H3694IGGGG09p3g6e47G6GB1C8802329566udcn566625G72G6G1J1JIJ0Jnr2Auv195C9A1677B5H9H3JH2c",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_name": "проспект Октября, 19",
+        "id": "70000001044506651_FlA6c165365H3H8301IGGGGG9p3g6e47G6GB1C8802660976udcn566625G72G6G1JG4IJG3nr2Auv195C9A1013362HAJ3H1ga",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_name": "Мубарякова, 1",
+        "id": "70000001044506349_FlA6c165365H3H83012GGGGG9p3g6e47G6GB1C8802660945udcn566625G72G6G1JGJ3JGJnr2Auv195C9A101336AH23J1H19B",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_comment": "2 этаж; 1 уровень",
+        "address_name": "Рубежная, 174",
+        "id": "2393065583695867_FlA6c165365H3H3694IGGGGG9p3g6e47G6GB1C88028A5B78udcn566625G72G6G1JG4IJG3nr2Auv195C9A1667B5H22J3H126",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_comment": "-2 уровень",
+        "address_name": "Энтузиастов, 20",
+        "id": "70000001023134221_FlA6c165365H3H83012GGGGG9p3g6e47G6GB1C8802523733udcn566625G72G6G1JGJ3JGJnr2Auv195C9A1013342H25J1H14e",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_comment": "2 этаж",
+        "address_name": "проспект Октября, 34",
+        "id": "70000001021885495_FlA6c165365H3H83012GGGGG9p3g6e47G6GB1C880239885Audcn566625G72G6G1JGJ3JGJnr2Auv195C9A1013346H26J1H17B",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      },
+      {
+        "address_name": "50 лет СССР, 41а",
+        "id": "70000001044506283_FlA6c165365H3H83012GGGGG9p3g6e47G6GB1C8802660939udcn566625G72G6G1JGJ3JGJnr2Auv195C9A1013364H27J1H17e",
+        "name": "Вкусно — и точка",
+        "type": "branch"
+      }
+    ],
+    "total": 15
+  }
+}
