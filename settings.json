@@ -1,5 +1,9 @@
 {
   "2gis_reviews_link_head": "https://public-api.reviews.2gis.com/2.0/branches/",
   "2gis_reviews_link_tail": "/reviews?key=37c04fe6-a560-4549-b459-02309cf643ad&limit=50&sort_by=date_created",
-  "2gis_firms_link": "https://catalog.api.2gis.ru/3.0/items?org_id=2393074172953395&region_id=17&key=rurbbn3446&utm_referrer=&fa821dba_ipp_key=v1659954210970%2Fv33947245ba5adc7a72e273%2FtjPmFQDgQqGra0ZYF77RAw%3d%3d&fa821dba_ipp_uid=1659945039866%2fmCghdufvfRl0nLVl%2f1NW2b4T3th0W814Em2oG1A%3d%3d"
+  "2gis_firms_link": "https://catalog.api.2gis.ru/3.0/items?org_id=2393074172953395&region_id=17&key=rurbbn3446&utm_referrer=&utm_referrer=&fa821dba_ipp_key=v1659961059193%2Fv33947245ba5adc7a72e273%2FZmvSWdlIx5SpwEarMPrJAg%3d%3d&fa821dba_ipp_uid=1659945039866%2fmCghdufvfRl0nLVl%2f1NW2b4T3th0W814Em2oG1A%3d%3d",
+  "flamp_reviews_link_head": "https://flamp.ru/api/2.0/filials/",
+  "flamp_reviews_link_tail": "/reviews?limit=5",
+  "flamp_firms_link": "https://flamp.ru/api/2.0/filials/?project=ufa&nocache=true&limit=10&sort=rating&fields=id,url,publishment,additional_attributes,work_hours,nearest_stations,additional_data,is_deleted,business_account,cover,reviews_count,rating_decimal,lat,lon,legal_information,ads_notice,photos,name_primary,name_extension,name_description,address,city,adm_div,project_id,basic_attributes&what=%D0%B2%D0%BA%D1%83%D1%81%D0%BD%D0%BE%20%D0%B8%20%D1%82%D0%BE%D1%87%D0%BA%D0%B0",
+  "flamp_authorization": "Bearer 2b93f266f6a4df2bb7a196bb76dca60181ea3b37"
 }
