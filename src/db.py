@@ -72,3 +72,18 @@ def save_last_run_datetime(last_run):
     :param last_run: Время последнего запуска
     """
     LastRun.create(datetime=last_run)
+
+
+def get_reviews_by_date(min_date, max_date=None, desc=False, limit=10):
+    """Выдает максимум limit отзывов с датой между min_date и max_date. По умолчанию по возрастанию"""
+    if not max_date:
+        max_date = datetime.now()
+
+    reviews = Review.select().where(Review.date_created > min_date, Review.date_created < max_date).limit(limit)
+
+    if desc:
+        reviews = reviews.order_by(Review.date_created.desc())
+    else:
+        reviews = reviews.order_by(Review.date_created.asc())
+
+    return reviews

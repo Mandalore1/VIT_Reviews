@@ -16,5 +16,13 @@ services:
     env_file:
       - ./env/db.env
 
+  bot:
+    build: .
+    command: python src/bot.py
+    env_file:
+      - ./env/bot.env
+    depends_on:
+      - db
+
 volumes:
   reviews_postgres_data:
