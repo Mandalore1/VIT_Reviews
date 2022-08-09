@@ -1,7 +1,8 @@
 import requests
 import json
-import db
 from datetime import datetime
+
+import db
 
 
 def handle_reviews_2gis(reviews, firm_id, min_date):
@@ -128,7 +129,7 @@ def main():
     # Соединяемся с базой данных
     db.init_database()
 
-    # min_date = datetime.fromisoformat("2022-08-04 11:25:08+03:00")
+    # Забираем время последнего запуска
     min_date = db.get_last_run_datetime()
 
     with open("settings.json", "r") as settings_file:

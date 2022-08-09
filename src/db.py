@@ -1,9 +1,14 @@
+import os
+
 import peewee
 from datetime import datetime
 
 import pytz
 
-db = peewee.PostgresqlDatabase(database='reviews', user='reviews_user', password='reviews', host='localhost')
+db = peewee.PostgresqlDatabase(database=os.environ.get("DATABASE_NAME"),
+                               user=os.environ.get("DATABASE_USER"),
+                               password=os.environ.get("DATABASE_PASSWORD"),
+                               host=os.environ.get("DATABASE_HOST"))
 
 
 class Review(peewee.Model):
@@ -29,6 +34,8 @@ class LastRun(peewee.Model):
 def init_database():
     """Инициализирует базу данных"""
     db.connect()
+
+    # Если таблиц еще нет, они будут созданы, существующие таблицы не изменятся
     db.create_tables([LastRun, Review])
 
 
@@ -49,7 +56,7 @@ def save_review_to_database(review):
 def get_last_run_datetime():
     """Возвращает дату и время последнего запуска с часовым поясом +5 Уфа. Если запусков не было, возвращает 2000 год"""
     try:
-        last_run = LastRun.select().order_by(LastRun.datetime).limit(1).get().datetime
+        last_run = LastRun.select().order_by(LastRun.datetime.desc()).limit(1).get().datetime
 
         last_run = last_run.replace(tzinfo=pytz.timezone("Asia/Yekaterinburg"))
     except peewee.DoesNotExist:
